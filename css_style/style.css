@@ -1,0 +1,657 @@
+body
+        {
+            margin: 0;
+        }
+        nav 
+        {
+            background: black;
+            padding: 30px;
+            text-align: center;
+        }
+        nav a 
+        {
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav a:hover 
+        {
+            color: gold;
+        }
+        footer 
+        {
+            margin-top: 80px;
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            backdrop-filter: blur(8px);
+            letter-spacing: 1px;
+            font-size: 18px;
+        }
+        footer a:link
+        {
+            color: gold;
+        }
+        footer a:visited
+        {
+            color: blue;
+        }
+        footer a:hover
+        {
+            color: white;
+        }
+        footer a:active
+        {
+            color: red;
+        }
+        .main_page #bg-video 
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+        .main_page .video-overlay 
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .main_page header 
+        {
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .main_page header h1 
+        {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .main_page .clock 
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .main_page .home_content 
+        {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .main_page h2
+        {
+            color: white;
+            text-align: center;
+        }
+        .about_me 
+        {
+            background-image: url(../images/aboutme_background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            position: relative;
+            z-index: 0;
+        }
+        .about_me .content-one,
+        .about_me .content-two,
+        .about_me .content-three
+        {
+            max-width: 1000px;
+            margin: 100px auto;
+            background: rgba(255, 255, 255, 0.75);
+            padding: 20px;
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            position: relative;
+            z-index: 1;
+        }
+        .about_me header 
+        {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            width: 100%;
+        }
+        .about_me header h1 
+        {
+            font-size: 50px;
+            margin: 0;
+            width: 100%;
+        }
+        .about_me section 
+        {
+            margin-bottom: 30px;
+        }
+        .about_me .about-box
+        {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .about_me .profile-pic
+        {
+            width: 220px;
+            border-radius: 10px;
+        }
+        .about_me html
+        {
+            scroll-behavior: smooth;
+        }
+        .about_me section h2
+        {
+            text-align: center;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        .about_me h2
+        {
+            text-align: center;
+            font-size: 50px;
+        }
+        .about_me table 
+        {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .about_me th, .about_me td 
+        {
+            border: 1px solid;
+            padding: 8px;
+            text-align: left;
+        }
+        .about_me th 
+        {
+            background-color: black;
+            color: white;
+        }
+        .family 
+        {
+            background-image: url(../images/family_background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .family header
+        {
+            background:#34495e;
+            color:white;
+            text-align:center;
+            padding:25px;
+            width:100%;
+        }
+        .family header h1
+        {
+            font-size:50px;
+            margin:0;
+        }
+        .family .container
+        {
+            max-width:1000px;
+            margin:80px auto;
+            padding:30px;
+            background:rgba(0,0,0,0.6);
+            color:white;
+            border-radius:12px;
+            backdrop-filter:blur(10px);
+            box-shadow:0 15px 35px rgba(0,0,0,0.6);
+        }
+        .family .container h2
+        {
+            text-align:center;
+            font-size:50px;
+            margin-bottom:25px;
+        }
+        .family .container p
+        {
+            font-size:20px;
+            line-height:1.7;
+            text-align:center;
+        }
+        .family .family-box
+        {
+            display:flex;
+            gap:30px;
+            align-items:center;
+            margin-top:30px;
+        }
+        .family .family-box img
+        {
+            width:200px;
+            border-radius:12px;
+            border:3px solid #2c3e50;
+        }
+        .family .family-details ul
+        {
+            list-style:none;
+            padding:0;
+            font-size:25px;
+        }
+        .family .family-details li
+        {
+            margin-bottom:10px;
+        }
+        .family h2
+        {
+            color:white;
+            text-align:center;
+            margin:40px 0;
+            font-size:48px;
+        }
+        .family .gallery
+        {
+            max-width:1100px;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:25px;
+            padding-bottom:80px;
+        }
+        .family .gallery img
+        {
+            width:100%;
+            height:230px;
+            object-fit:cover;
+            border-radius:18px;
+            transition:0.4s;
+        }
+        .family .gallery img:hover
+        {
+            transform:scale(1.05);
+        }
+        .family .audio-center
+        {
+            display:flex;
+            justify-content:center;
+        }
+        .education
+        {
+            background-image: url(../images/education_background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .education header 
+        {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .education header h1 
+        {
+            font-size: 50px;
+            margin: 0;
+        }
+        .education blockquote
+        {
+            color: white;
+            font-size: 30px;
+        }
+        .education table, tr, th, td
+        {
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+        .education th, td
+        {
+            padding: 45px;
+        }
+        .education th
+        {
+            background-color: white;
+            color: black;
+            font-size: 45px;
+        }
+        .education td
+        {
+            text-align: center;
+            color: white;
+        }
+        .education .timeline-item 
+        {
+            margin-bottom: 30px;
+        }
+        .education .timeline-box 
+        {
+            max-width: 1000px;
+            display: flex;
+            gap: 25px;
+            background: rgba(0, 0, 0, 0.65);
+            color: white; 
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(12px);
+            transition: 0.4s ease;
+        }
+        .education .timeline-text 
+        {
+            flex: 1;
+        }
+        .education .timeline-img 
+        {
+            width: 180px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .education .timeline-img:hover 
+        {
+            transform: scale(1.05);
+        }
+        .education .timeline
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .friends
+        {
+            background-image: url(../images/friends_background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .friends header 
+        {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .friends header h1 
+        {
+            font-size: 50px;
+            margin: 0;
+        }
+        .friends .video-container
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .friends .container 
+        {
+            max-width: 1050px;
+            margin: 80px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+        }
+        .friends .container h2 
+        {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 25px;
+        }
+        .friends .container p 
+        {
+            font-size: 20px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        .friends .friends-grid 
+        {
+            max-width: 1050px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 25px;
+        }
+        .friends .friend-box 
+        {
+            background: rgba(0,0,0,0.65);
+            border-radius: 18px;
+            padding: 15px;
+            text-align: center;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+            color: white;
+        }
+        .friends .friend-box img 
+        {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+        .friends .friend-box h3 
+        {
+            margin-top: 12px;
+            color: #f1c40f;
+            letter-spacing: 1px;
+        }
+        .friends html 
+        {
+            scroll-behavior: smooth;
+        }
+        .gallery
+        {
+            background-image: url(../images/family_background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .gallery header 
+        {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .gallery header h1 
+        {
+            font-size: 50px;
+            margin: 0;
+            width: 100%;
+        }
+        .gallery .section-box 
+        {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+        .gallery .section-box h2 
+        {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .gallery .gallery-grid 
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .gallery .gallery-item 
+        {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery .gallery-item img 
+        {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery .gallery-item:hover 
+        {
+            transform: scale(1.05);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+        }
+        .gallery .gallery-item:hover img 
+        {
+            transform: scale(1.1);
+        }
+        .gallery .caption 
+        {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 12px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery .gallery-item:hover .caption 
+        {
+            opacity: 1;
+        }
+        .gallery @media (max-width: 600px) 
+        {
+            header h1 
+            {
+                font-size: 35px;
+            }
+
+            .section-box h2 
+            {
+                font-size: 30px;
+            }
+        }
+        .gallery .audio-center
+        {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .gallery .filter-buttons
+        {
+            text-align:center;
+            margin-top: 40px;
+        }
+        .gallery .filter-buttons button
+        {
+            padding: 12px 25px;
+            margin: 8px;
+            border-radius: 25px;
+            border: none;
+            font-weight: bold;
+            letter-spacing: 1px;
+            cursor: pointer;
+            background: black;
+            color: white;
+            transition: 0.3s;
+        }
+        .gallery .filter-buttons button:hover,
+        .gallery .filter-buttons button.active
+        {
+            background: gold;
+            color: black;
+        }
+        .experience
+        {
+            background-image: url(../images/forest_background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .experience .container-experience
+        {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 30px;
+        }
+        .experience .exp-box
+        {
+            background: rgba(255,255,255,0.75);
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(6px);
+        }
+        .experience .exp-box h2
+        {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        .experience .exp-box p
+        {
+            font-size: 20px;
+            text-align: center;
+            line-height: 1.8;
+        }
+        .experience header 
+        {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .experience h1 
+        {
+            font-size: 50px;
+            margin: 0;
+        }
+        .experience .exp-box
+        {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            background: rgba(255,255,255,0.75);
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            backdrop-filter: blur(6px);
+        }
+        .experience .exp-text
+        {
+            flex: 1;
+        }
+        .experience .exp-text h2
+        {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        .experience .exp-text p
+        {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .experience .exp-image
+        {
+            flex: 1;
+            text-align: right;
+        }
+        .experience .exp-image img
+        {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+
+
+
