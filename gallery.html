@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Nabil Muqrish</title>
+    <link rel="stylesheet" href="css_style/style.css">
+</head>
+
+<body class="gallery">
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="about_me.html">ABOUT ME</a>
+        <a href="family.html">FAMILY</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="friends.html">FRIENDS</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="gallery.html">GALLERY</a>
+    </nav>
+
+    <header>
+        <h1><em>GALLERY</em></h1>
+    </header>
+
+    <div class="audio-center">
+        <audio controls>
+            <source src="audio/sailor_song.mp3" type="audio/mpeg">
+                Your browser does not suppport video element
+        </audio>
+</div>
+<div class="filter-buttons">
+    <button class="active" onclick="filterGallery('all', this)">All</button>
+    <button onclick="filterGallery('me', this)">Me</button>
+    <button onclick="filterGallery('friends', this)">Friends</button>
+    <button onclick="filterGallery('family', this)">Family</button>
+</div>
+
+<div class="section-box">
+    <h2>Gallery Collection</h2>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil1.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil2.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil4.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil5.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil6.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil7.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil8.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil9.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil10.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil11.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil12.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil13.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil14.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil15.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/housemates3.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="me">
+            <img src="images/nabil16.jpg">
+            <div class="caption">Me</div>
+        </div>
+
+        <div class="gallery-item" data-category="family">
+            <img src="images/family1.jpg">
+            <div class="caption">Family</div>
+        </div>
+
+        <div class="gallery-item" data-category="family">
+            <img src="images/family2.jpg">
+            <div class="caption">Family</div>
+        </div>
+
+        <div class="gallery-item" data-category="family">
+            <img src="images/family3.jpg">
+            <div class="caption">Family</div>
+        </div>
+
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/classmates.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/classmates1.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/modelling_members.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/modelling_members1.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/secondary_school.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/housemates1.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/housemates2.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/housemates3.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/housemates4.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/silat_members.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/classmates3.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/classmates4.jpg">
+            <div class="caption">Friends</div>
+        </div>
+
+        <div class="gallery-item" data-category="friends">
+            <img src="images/kebudayaan.jpg">
+            <div class="caption">Friends</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function filterGallery(category, button) {
+
+    let items = document.querySelectorAll('.gallery-item');
+    let buttons = document.querySelectorAll('.filter-buttons button');
+
+    buttons.forEach(btn => btn.classList.remove("active"));
+
+    button.classList.add("active");
+
+    items.forEach(item => 
+        {
+        if(category === 'all' || item.getAttribute('data-category') === category){
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+}
+</script>
+
+<footer>
+    © 2025 | Designed by Nabil Muqrish  
+    <br>
+    <a href="index.html">Back to Home</a>
+</footer>
+
+
+
+
+</body>
+</html>
